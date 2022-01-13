@@ -1,0 +1,13 @@
+ <!--
+    Title: My-detail component
+    Author: Professor Krasso
+    Date: 01/07/2022
+    Modified By: Keith Hall
+    Description: HTML markup for my-details component of the enhanced-profile-app.
+-->
+<ul class="list-group list-group-flush ">
+  <li class="list-group-item"><strong>Name:</strong>&nbsp;{{ myProfile.fullName }}</li>
+  <li class="list-group-item"><strong>Favorite Food:</strong>&nbsp;{{ myProfile.favoriteFood }}</li>
+  <li class="list-group-item"><strong>Favorite Color:</strong>&nbsp;{{ myProfile.favoriteColor }}</li>
+  <li class="list-group-item"><strong>Keywords:</strong> <span *ngFor= "let word of myProfile.keywords">&nbsp;{{ word }}</span></li>
+</ul>
