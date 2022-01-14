@@ -1,0 +1,21 @@
+.apa-reference {
+  font-weight: lighter;
+  font-style: italic;
+}
+.align-center {
+  text-align: center;
+}
+.lower-container {
+  margin-top: 20px;
+}
+p {
+  font-size: 16px;
+  text-decoration: none;
+}
+h2 {
+  font-size: 32px;
+}
+a {
+  text-decoration: none;
+}
+

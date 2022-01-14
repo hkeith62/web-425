@@ -1,0 +1,33 @@
+ <!--
+    Title: Main App Component
+    Author: Professor Krasso
+    Date: 01/07/2022
+    Modified By: Keith Hall
+    Description: Main HTML markup file for the Composer App
+-->
+
+<!--Navigation bar to remain visible in all view states-->
+<nav class = "navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class= "navbar-nav">
+    <!-- Links to the Components-->
+      <li class= "nav-item active">
+          <a class= "nav-link" routerLink= "./composer-list">Composer List</a> <!-- routerLink directive calls module files for this route.-->
+      </li>
+      <li class= "nav-item">
+          <a class= "nav-link" routerLink= "./about">About</a>
+      </li>
+      <li class= "nav-item">
+          <a class= "nav-link" routerLink= "./contact">Contact Us</a>
+      </li>
+  </ul>
+</nav>
+<div class= "container">
+  <br /><br />
+  <br /><br />
+  <div class= "row">
+    <div class= "col-sm-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
