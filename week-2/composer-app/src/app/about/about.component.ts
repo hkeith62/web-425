@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  Composer
+; Author: Professor Krasso
+; Date: 01/07/2022
+; Modified By: Keith Hall
+; Description: File containing logic and functionality for the about component.
+;===========================================
+*/
 import { Component, OnInit } from '@angular/core';
 
 @Component({

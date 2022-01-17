@@ -1,9 +1,14 @@
-.apa-reference {
-  font-weight: lighter;
-  font-style: italic;
-}
+/**
+    Title: WEB 231 – About Component
+    Author: Keith Hall
+    Date: 01/16/2022
+    Description: This is the css mark up for the about component.
+*/
+
+/* h2 title */
 .align-center {
   text-align: center;
+  font-size: 32px;
 }
 .lower-container {
   margin-top: 20px;
@@ -11,9 +16,6 @@
 p {
   font-size: 16px;
   text-decoration: none;
-}
-h2 {
-  font-size: 32px;
 }
 a {
   text-decoration: none;

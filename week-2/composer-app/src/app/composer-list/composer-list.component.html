@@ -1,33 +1,29 @@
+ <!--
+    Title: Composer-list Component
+    Author: Professor Krasso
+    Date: 01/07/2022
+    Modified By: Keith Hall
+    Description: HTML markup file for the Composer-list component
+-->
+
 <div class= "container">
-<div class="row">
-  <div class="col-sm-6">
-<table class="table table-bordered thread-dark-dark">
-  <thead>
-    <tr>
-      <th scope="col">Full Name</th>
-      <th scope="col">Genre</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Ludwig Van Beethoven</th>
-      <td>Classical</td>
-    </tr>
-    <tr>
-      <th scope="row">Johann Sebastian Bach</th>
-      <td>Classical</td>
-    </tr>
-    <tr>
-      <th scope="row">Wolfgang Amadeus Mozart</th>
-      <td colspan="2">Classical</td>
-    </tr> <tr>
-      <th scope="row">Johannes Brahms</th>
-      <td colspan="2">Classical</td>
-    </tr>
-    <tr>
-      <th scope="row">Joseph Haydn</th>
-      <td colspan="2">Classical</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+    <div class="row">
+        <div class="col-sm-6">
+          <h1>Composer List</h1> <br /><br />
+        <table class="table table-bordered">
+           <thead class= "thread-dark">
+              <tr>
+                  <th scope="col">Full Name</th>
+                  <th scope="col">Genre</th>
+              </tr>
+            </thead>
+
+            <tbody *ngFor= "let composer of composers"> <!-- Loop over the array of composers -->
+               <tr>
+                   <td scope="row">{{ composer.fullName }}</td>  <!-- Output fullName and Genre to table -->
+                   <td>{{ composer.genre }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </div>

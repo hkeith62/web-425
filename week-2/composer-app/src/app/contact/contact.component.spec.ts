@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title:  Component Specs
+; Title:  Composer Component
 ; Author: Professor Krasso
 ; Date: 01/14/2022
 ; Modified By: Keith Hall

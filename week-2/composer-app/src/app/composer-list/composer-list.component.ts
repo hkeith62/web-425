@@ -1,10 +1,10 @@
 /*
 ============================================
-; Title:  Hello World
+; Title:  Composer-List component
 ; Author: Professor Krasso
-; Date: 01/07/2022
+; Date: 01/14/2022
 ; Modified By: Keith Hall
-; Description: File implementing IPerson interface
+; Description: File implementing Composer interface
 ;===========================================
 */
 import { Component, OnInit } from '@angular/core';
