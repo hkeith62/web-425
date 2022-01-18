@@ -1,0 +1,19 @@
+/**
+    Title: WEB 231 – Composer-list Component
+    Author: Keith Hall
+    Date: 01/16/2022
+    Description: This is the css mark up for the composer-list component.
+*/
+.container {
+  width: 100%;
+  padding-top: 5px;
+  margin-left: 250px;
+}
+/* Table header */
+.thread-dark {
+  background-color: black;
+  color: white
+}
+tr {
+  font-size: 16px;
+}
