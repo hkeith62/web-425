@@ -1,3 +1,12 @@
+ /*
+============================================
+; Title: App CSS
+; Author: Professor Krasso
+; Date: 01/14/2022
+; Modified By: Keith Hall
+; Description: CSS file for main app component
+;===========================================
+*/
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ComposerDetailsComponent } from './composer-details.component';

@@ -1,3 +1,12 @@
+ /*
+============================================
+; Title: App CSS
+; Author: Professor Krasso
+; Date: 01/14/2022
+; Modified By: Keith Hall
+; Description: CSS file for main app component
+;===========================================
+*/
 import { Component, OnInit } from '@angular/core';
 import { IComposer } from '../composer.interface';
 import { Composer } from '../composer.class';
