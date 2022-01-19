@@ -1,4 +1,14 @@
+/*
+============================================
+; Title:  Routing Module
+; Author: Professor Krasso
+; Date: 01/14/2022
+; Modified By: Keith Hall
+; Description: File containing imported components and route configurations for the Composer App
+;===========================================
+*/
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sign-in',
@@ -7,12 +17,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignInComponent implements OnInit {
 
-  constructor() { }
+  isLoggedIn = false;
+
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
   signIn() {
-    alert('User signed in')
+    this.isLoggedIn = true;
+
+    this.router.navigate(['/home'], {queryParams: {isLoggedIn: this.isLoggedIn}, skipLocationChange: true})
   }
 
 }

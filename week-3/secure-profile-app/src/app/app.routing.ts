@@ -14,7 +14,7 @@ import { HomeComponent } from './home/home.component';
 export const AppRoutes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: SignInComponent
   },
   {
     path: 'home',

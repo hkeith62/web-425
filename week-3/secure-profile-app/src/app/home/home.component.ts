@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  isLoggedIn: Boolean = true;    // Value of isLoggedIn is set to true
+  isLoggedIn: boolean;    // Value of isLoggedIn is set to true
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) {
+
+    this.isLoggedIn = Boolean(this.route.snapshot.queryParamMap.get('isLoggedIn'));
+   }
 
   ngOnInit(): void {
   }
