@@ -1,10 +1,10 @@
  /*
 ============================================
-; Title: App CSS
+; Title: Main.ts
 ; Author: Professor Krasso
 ; Date: 01/14/2022
 ; Modified By: Keith Hall
-; Description: CSS file for main app component
+; Description: Main.ts file for app component.
 ;===========================================
 */
 import { enableProdMode } from '@angular/core';

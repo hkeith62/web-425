@@ -1,5 +1,13 @@
+/*
+============================================
+; Title: My details component.ts
+; Author: Professor Krasso
+; Date: 01/14/2022
+; Modified By: Keith Hall
+; Description: My details component.ts file.
+;===========================================
+*/
 import { Component, OnInit } from '@angular/core';
-
 
 export default class Person {
   fullName: string;

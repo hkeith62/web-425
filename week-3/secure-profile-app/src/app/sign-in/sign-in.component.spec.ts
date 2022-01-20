@@ -1,3 +1,12 @@
+ /*
+============================================
+; Title:  Sign in component.spec
+; Author: Professor Krasso
+; Date: 01/11/2022
+; Modified By: Keith Hall
+; Description: Sign in component.spec for unit testing.
+;===========================================
+*/
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SignInComponent } from './sign-in.component';

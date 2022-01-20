@@ -4,7 +4,7 @@
 ; Author: Professor Krasso
 ; Date: 01/14/2022
 ; Modified By: Keith Hall
-; Description: File containing imported components and route configurations for the Composer App
+; Description: File containing imported components and route configurations for the secure-profile-app.
 ;===========================================
 */
 import { Routes } from '@angular/router';

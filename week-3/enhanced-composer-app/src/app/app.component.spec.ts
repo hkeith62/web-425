@@ -1,10 +1,10 @@
 /*
 ============================================
-; Title:  Component Specs
+; Title:  App Component.spec
 ; Author: Professor Krasso
 ; Date: 01/14/2022
 ; Modified By: Keith Hall
-; Description: Spec.ts file for unit tests of individual components
+; Description: Spec.ts file for unit tests of individual components.
 ;===========================================
 */
 import { TestBed } from '@angular/core/testing';

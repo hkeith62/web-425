@@ -1,3 +1,10 @@
+/**
+ * Title: App Component.spec
+ * Author: Professor Krasso
+ * Date: 01/19/2022
+ * Modified By: Keith Hall
+ * Description: App component spec file for unit testing.
+ */
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 

@@ -4,7 +4,7 @@
 ; Author: Professor Krasso
 ; Date: 01/14/2022
 ; Modified By: Keith Hall
-; Description: CSS file for main app component
+; Description: CSS file for composer-details-component of composer app  
 ;===========================================
 */
 import { Component, OnInit } from '@angular/core';

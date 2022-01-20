@@ -1,3 +1,11 @@
+/**
+ * Title: Home component.ts
+ * Author: Professor Krasso
+ * Date: 01/19/2022
+ * Modified By Keith Hall
+ * Description: Home component.ts file.
+ */
+
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute} from '@angular/router';
 

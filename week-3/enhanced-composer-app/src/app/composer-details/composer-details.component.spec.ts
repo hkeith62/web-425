@@ -1,10 +1,10 @@
  /*
 ============================================
-; Title: App CSS
+; Title: Composer Details. spec
 ; Author: Professor Krasso
 ; Date: 01/14/2022
 ; Modified By: Keith Hall
-; Description: CSS file for main app component
+; Description: Spec.ts file for unit tests of individual components 
 ;===========================================
 */
 import { ComponentFixture, TestBed } from '@angular/core/testing';

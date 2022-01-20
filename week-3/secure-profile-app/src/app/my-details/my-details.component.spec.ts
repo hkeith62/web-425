@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  My details omponent.spec
+; Author: Professor Krasso
+; Date: 01/14/2022
+; Modified By: Keith Hall
+; Description: Spec.ts file for unit tests of individual components.
+;===========================================
+*/
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MyDetailsComponent } from './my-details.component';

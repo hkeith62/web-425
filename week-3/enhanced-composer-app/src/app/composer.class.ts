@@ -1,8 +1,9 @@
 /**
  * Title: composer.class.ts
  * Author: Professor Krasso
- * Date: 21 April 2020
- * Description: Class file for the Composer object
+ * Date: 01/19/2022
+ * Modified By Keith Hall
+ * Description: Class file for the Composer object.
  */
 
  import { IComposer } from './composer.interface';

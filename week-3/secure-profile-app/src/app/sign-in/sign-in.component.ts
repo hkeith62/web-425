@@ -1,10 +1,10 @@
 /*
 ============================================
-; Title:  Routing Module
+; Title:  Sign in component.ts
 ; Author: Professor Krasso
 ; Date: 01/14/2022
 ; Modified By: Keith Hall
-; Description: File containing imported components and route configurations for the Composer App
+; Description: Sign in component.ts file
 ;===========================================
 */
 import { Component, OnInit } from '@angular/core';

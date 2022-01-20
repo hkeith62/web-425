@@ -1,0 +1,33 @@
+<!--
+    Title: Home Component.html
+    Author: Professor Krasso
+    Date: 01/19/2022
+    Modified By: Keith Hall
+    Description: HTML markup for home component of the enhanced-secure-profile-app.
+-->
+<nav class = "navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class= "navbar-nav">
+      <li class= "nav-item active">
+          <a class= "nav-link" href= "#">Home</a>
+      </li>
+      <li class= "nav-item">
+          <a class= "nav-link" href= "#">About</a>
+      </li>
+      <li class= "nav-item">
+          <a class= "nav-link" href= "#">Contact</a>
+      </li>
+  </ul>
+</nav>
+<div class= "container">
+<br /><br />
+<h1 style= "text-align:center">Exercise 3.3 - Passing Data to Routes, Part 2</h1>
+<br /><br />
+<div class= "row">  <!-- Checks for the value of isLoggedIn and calls for the show error template if set to false-->
+  <div class= "col-sm-2">
+    <app-my-image></app-my-image>
+  </div>
+  <div class= "col-sm-2" style= "margin-left:50px;">
+    <app-my-details></app-my-details>
+  </div>
+</div>
+</div>

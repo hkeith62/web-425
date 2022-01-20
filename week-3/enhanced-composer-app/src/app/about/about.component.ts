@@ -1,8 +1,8 @@
 /*
 ============================================
-; Title:  Composer
+; Title:  About Component.ts
 ; Author: Professor Krasso
-; Date: 01/07/2022
+; Date: 01/14/2022
 ; Modified By: Keith Hall
 ; Description: File containing logic and functionality for the about component.
 ;===========================================

@@ -1,3 +1,12 @@
+ /*
+============================================
+; Title: Main.ts
+; Author: Professor Krasso
+; Date: 01/14/2022
+; Modified By: Keith Hall
+; Description: Main.ts file for secure-profile-app.
+;===========================================
+*/
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 

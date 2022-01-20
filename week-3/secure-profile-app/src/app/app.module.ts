@@ -1,10 +1,10 @@
  /*
 ============================================
-; Title:  App Module
+; Title:  App Module.ts
 ; Author: Professor Krasso
 ; Date: 01/11/2022
 ; Modified By: Keith Hall
-; Description: App Module of the enhance-profile-app
+; Description: App Module of the secure-profile-app
 ;===========================================
 */
 import { NgModule } from '@angular/core';

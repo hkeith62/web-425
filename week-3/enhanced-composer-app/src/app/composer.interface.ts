@@ -1,8 +1,9 @@
 /**
  * Title: composer.interface.ts
  * Author: Professor Krasso
- * Date: 21 April 2020
- * Description: Interface for the Composer object
+ * Date: 01/19/2022
+ * Modified By: Keith Hall
+ * Description: Interface for the Composer object.
  */
 
  export interface IComposer {
