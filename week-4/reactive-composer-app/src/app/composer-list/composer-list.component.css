@@ -1,0 +1,27 @@
+/**
+    Title: Composer List Component.css
+    Author: Keith Hall
+    Date: 01/24/2022
+    Description: This is the css mark up for composer-list component of the reactive-composer-list app.
+*/
+.container {
+  width: 100%;
+  padding-top: 5px;
+  margin-left: 250px;
+}
+/* Table header */
+.thread-dark {
+  background-color: black;
+  color: white
+}
+tr {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+.textSearch {
+  width: 30%;
+  float: right;
+  margin-bottom: 5px;
+}

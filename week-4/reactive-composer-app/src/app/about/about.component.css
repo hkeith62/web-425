@@ -1,0 +1,23 @@
+/**
+    Title: About Component.css
+    Author: Keith Hall
+    Date: 01/24/2022
+    Description: This is the css mark up for the about component.
+*/
+
+/* h2 title */
+.align-center {
+  text-align: center;
+  font-size: 32px;
+}
+.lower-container {
+  margin-top: 20px;
+}
+p {
+  font-size: 16px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
