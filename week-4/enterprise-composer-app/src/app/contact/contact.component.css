@@ -1,0 +1,36 @@
+ /*
+============================================
+; Title: Contact component.css
+; Author: Professor Krasso
+; Date: 01/25/2022
+; Modified By: Keith Hall
+; Description: CSS file for contact component of enterprise-composer-app.
+;===========================================
+*/
+
+/* Page container */
+.location {
+  text-align: center;
+}
+/* Address */
+.txt2 {
+  font-size: 16px;
+}
+.container {
+  width: 80%;
+  padding-top: 5px;
+  margin-left: 280px;
+}
+/* Icons */
+.gi-2x {
+  font-size: 2em;
+}
+/* Phone number */
+.list-group {
+  font-size: 16px;
+}
+
+
+
+
+

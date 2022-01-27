@@ -1,0 +1,21 @@
+/*
+============================================
+; Title:  Composer Details. css
+; Author: Professor Krasso
+; Date: 01/25/2022
+; Modified By: Keith Hall
+; Description: Css file for composer details component
+;===========================================
+*/
+.list-group-item {
+  font-size: 16px;
+}
+.container {
+  margin-left: 15%;
+}
+a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+

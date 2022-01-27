@@ -1,0 +1,34 @@
+ <!--
+    Title: Composer-list Component.html
+    Author: Professor Krasso
+    Date: 01/25/2022
+    Modified By: Keith Hall
+    Description: HTML markup file for the enterprise-composer-list component
+-->
+
+<div class= "container">
+    <div class="row">
+        <div class="col-sm-8">
+          <h1>Composer List</h1>
+          <div class= "textSearch">
+            <input type= "text" id= "txtSearch" class= "form-control" placeholder= "Search by name in lower case" [formControl]= "txtSearchControl">
+          </div>
+        <table class="table table-bordered">
+           <thead class= "thread-dark">
+              <tr>
+                  <th scope="col">Composer ID</th>
+                  <th scope="col">Full Name</th>
+                  <th scope="col">Genre</th>
+              </tr>
+            </thead>
+
+            <tbody *ngFor= "let composer of composers | async"> <!-- Loop over the array of composers -->
+               <tr>
+                   <td><a routerLink= "/composer-details/{{ composer.composerId }}">{{ composer.composerId }}</a></td>
+                   <td scope="row">{{ composer.fullName }}</td>  <!-- Output fullName and Genre to table -->
+                   <td>{{ composer.genre }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </div>

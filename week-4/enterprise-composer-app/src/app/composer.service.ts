@@ -2,13 +2,16 @@
 ============================================
 ; Title:  Composer Service
 ; Author: Professor Krasso
-; Date: 01/24/2022
+; Date: 01/25/2022
 ; Modified By: Keith Hall
-; Description: Composer service for reactive-composer-app.
+; Description: Composer service for enterprise-composer-app.
 ;===========================================
 */
 import { Injectable } from '@angular/core';
 import { IComposer } from './composer.interface';
+import { Observable } from 'rxjs';
+import { of } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -27,8 +30,8 @@ export class ComposerService {
       {composerId: 204, fullName: "Joseph Haydn", genre: "Classical"}
     ]
   }
-  getComposers() {
-    return this.composers;
+  getComposers(): Observable<IComposer[]> { // Use Observable of method to create and return an observable array of IComposers.
+    return of(this.composers);
   }
 
   getComposer(composerId: number) : IComposer {
@@ -39,6 +42,11 @@ export class ComposerService {
       }
     }
     return {} as IComposer;
+  }
+  filterComposers(name: string): Observable<IComposer[]> {
+            return of(this.composers).pipe(map(composers =>
+              composers.filter(composer =>
+                composer.fullName.toLowerCase().indexOf(name) > -1)))
   }
 }
 

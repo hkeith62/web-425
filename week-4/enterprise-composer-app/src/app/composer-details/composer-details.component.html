@@ -1,0 +1,20 @@
+ <!--
+    Title: Composer Details.html
+    Author: Professor Krasso
+    Date: 01/25/2022
+    Modified By: Keith Hall
+    Description: HTML markup file for composer details of the enterprise-composer-app.
+-->
+<div class= "container"><br />
+<div class="row">
+  <div class="col-sm-6">
+    <ul class="list-group">
+      <li class="list-group-item">Composer ID: {{ composer.composerId }}</li>
+      <li class="list-group-item">Full name: {{ composer.fullName}}</li>
+      <li class="list-group-item">Genre: {{ composer.genre }}</li>
+    </ul>
+    <br />
+    <a routerLink="/composer-list" class="float-right">Return to Composers</a>
+  </div>
+</div>
+</div>
