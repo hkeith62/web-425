@@ -1,10 +1,10 @@
  /*
 ============================================
-; Title: app.component.spec
+; Title: app.component.spec.ts
 ; Author: Professor Krasso
 ; Date: 02/08/2022
 ; Modified By: Keith Hall
-; Description: App component spec.ts for in-n-out-booksp3.
+; Description: main component.spec.ts file for gpa-calculator-ap.
 ;===========================================
 */
 import { TestBed } from '@angular/core/testing';
@@ -29,16 +29,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'in-n-out-booksp4'`, () => {
+  it(`should have as title 'gpa-calculator-app1'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('in-n-out-booksp4');
+    expect(app.title).toEqual('gpa-calculator-app1');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('in-n-out-booksp4 app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('gpa-calculator-app1 app is running!');
   });
 });

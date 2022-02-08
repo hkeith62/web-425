@@ -1,9 +1,9 @@
 /**
  * Title: app.component.ts
  * Author: Professor Krasso
- * Date: 02/04/2022
+ * Date: 02/08/2022
  * Modified by: Keith Hall
- * Description: App component.ts for in-n-out-booksp4 app.
+ * Description: App component.ts for the for in-n-out-booksp3-app.
  */
 
  import { Component } from '@angular/core';
