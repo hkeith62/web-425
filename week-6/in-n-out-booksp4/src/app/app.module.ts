@@ -26,6 +26,10 @@
  import { MatDialogModule } from '@angular/material/dialog';
 import { WishlistComponent } from './wishlist/wishlist.component';
 import { WishlistCreateComponent } from './wishlist-create/wishlist-create.component';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
 
 
  @NgModule({
@@ -49,7 +53,10 @@ import { WishlistCreateComponent } from './wishlist-create/wishlist-create.compo
      FlexLayoutModule,
      MatIconModule,
      MatTableModule,
-     MatDialogModule
+     MatDialogModule,
+     FormsModule,
+     MatFormFieldModule,
+     MatInputModule
    ],
    providers: [],
    bootstrap: [AppComponent]

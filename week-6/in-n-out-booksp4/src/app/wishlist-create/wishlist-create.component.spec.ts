@@ -1,3 +1,12 @@
+ /*
+============================================
+; Title:  wishlist-create.component.spec.ts
+; Author: Professor Krasso
+; Date: 02/08/2022
+; Modified By: Keith Hall
+; Description: wishlist-create.component.spec.ts for in-n-out-booksp4 app.
+;===========================================
+*/
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { WishlistCreateComponent } from './wishlist-create.component';
