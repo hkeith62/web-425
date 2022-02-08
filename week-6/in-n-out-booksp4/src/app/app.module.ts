@@ -24,6 +24,8 @@
  import { MatTableModule} from '@angular/material/table';
  import { BookDetailsDialogComponent } from './book-details-dialog/book-details-dialog.component';
  import { MatDialogModule } from '@angular/material/dialog';
+import { WishlistComponent } from './wishlist/wishlist.component';
+import { WishlistCreateComponent } from './wishlist-create/wishlist-create.component';
 
 
  @NgModule({
@@ -32,7 +34,9 @@
      AboutComponent,
      ContactComponent,
      BookListComponent,
-     BookDetailsDialogComponent
+     BookDetailsDialogComponent,
+     WishlistComponent,
+     WishlistCreateComponent
    ],
    imports: [
      BrowserModule,
