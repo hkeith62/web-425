@@ -4,7 +4,7 @@
 ; Author: Professor Krasso
 ; Date: 02/08/2022
 ; Modified By: Keith Hall
-; Description: main app component.ts file.
+; Description: main app component.ts file for the GPA calculator.
 ;===========================================
 */
 import { Component } from '@angular/core';

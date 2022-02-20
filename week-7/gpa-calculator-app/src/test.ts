@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: test.ts
+; Author: Professor Krasso
+; Date: 02/20/2022
+; Modified By: Keith Hall
+; Description: test.ts file for the gpa calculator.
+;===========================================
+*/
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 
 import 'zone.js/testing';

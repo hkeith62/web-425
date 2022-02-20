@@ -1,3 +1,12 @@
+ /*
+============================================
+; Title: sign-in.component.ts
+; Author: Professor Krasso
+; Date: 02/20/2022
+; Modified By: Keith Hall
+; Description: component.ts file for the sign-in component of the gpa calculator3.
+;===========================================
+*/
 import { Component, OnInit } from '@angular/core';
 import { SignInService } from '../sign-in.service';
 import { Router } from '@angular/router';

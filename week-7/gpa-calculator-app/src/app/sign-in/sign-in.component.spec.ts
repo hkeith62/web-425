@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: sign-in.component.spec.ts
+; Author: Professor Krasso
+; Date: 02/18/2022
+; Modified By: Keith Hall
+; Description: Sign-in.component.spec for the gpa calculator.
+;===========================================
+*/
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SignInComponent } from './sign-in.component';

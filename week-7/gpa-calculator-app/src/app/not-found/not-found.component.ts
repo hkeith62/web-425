@@ -4,7 +4,7 @@
 ; Author: Professor Krasso
 ; Date: 02/06/2022
 ; Modified By: Keith Hall
-; Description: component.ts file for not-found component.
+; Description: component.ts file for not-found component of GPA Calculator.
 ;===========================================
 */
 import { Component, OnInit } from '@angular/core';

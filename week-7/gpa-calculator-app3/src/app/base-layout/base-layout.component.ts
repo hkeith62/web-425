@@ -4,7 +4,7 @@
 ; Author: Professor Krasso
 ; Date: 02/06/2022
 ; Modified By: Keith Hall
-; Description: component.ts file for the base-layout component of the gpa calculator.
+; Description: component.ts file for the base-layout component of the gpa calculator3.
 ;===========================================
 */
 import { Component, OnInit } from '@angular/core';

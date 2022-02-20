@@ -4,7 +4,7 @@
 ; Author: Professor Krasso
 ; Date: 02/17/2022
 ; Modified By: Keith Hall
-; Description: sign-in guaed for the gpa calculator app3.
+; Description: sign-in guard for the gpa calculator app3.
 ;===========================================
 */
 import { Injectable } from '@angular/core';

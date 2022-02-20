@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: sign-in.gaurd.ts
+; Author: Professor Krasso
+; Date: 02/18/2022
+; Modified By: Keith Hall
+; Description: Sign-in gaurd for the gpa calculator.
+;===========================================
+*/
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot, UrlTree } from '@angular/router';
 import { Observable } from 'rxjs';

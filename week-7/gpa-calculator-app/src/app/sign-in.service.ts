@@ -1,3 +1,12 @@
+/*
+============================================
+; Title: sign-in.service.ts
+; Author: Professor Krasso
+; Date: 02/20/2022
+; Modified By: Keith Hall
+; Description: Sign-in. service file for the the gpa calculator.
+;===========================================
+*/
 import { Injectable } from '@angular/core';
 
 @Injectable({

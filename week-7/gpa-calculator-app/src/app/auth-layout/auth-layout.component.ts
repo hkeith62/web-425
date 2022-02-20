@@ -1,3 +1,12 @@
+ /*
+============================================
+; Title: auth-layout.component.ts
+; Author: Professor Krasso
+; Date: 02/08/2022
+; Modified By: Keith Hall
+; Description: auth-layout.component.ts file for the gpa calculator app.
+;===========================================
+*/
 import { Component, OnInit } from '@angular/core';
 
 @Component({
